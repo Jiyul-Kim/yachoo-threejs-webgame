@@ -5,9 +5,8 @@ const dice = (diceArr) => {
   const D4 = Math.floor(Math.random() * 6 + 1);
   const D5 = Math.floor(Math.random() * 6 + 1);
   diceArr = [D1, D2, D3, D4, D5];
-  ++i;
   console.log("#".repeat(10));
-  console.log(`인덱스값: ${i}`);
+  // console.log(`인덱스값: ${i}`);
   let acesCount = 0;
   let twosCount = 0;
   let threesCount = 0;
